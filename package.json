@@ -1,0 +1,25 @@
+{
+  "name": "jsonerr",
+  "version": "1.0.0",
+  "description": "Function to get JSON friendly object from error (Node/V8 only).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trenskow/jsonerr.git"
+  },
+  "keywords": [
+    "json",
+    "error",
+    "jsonify",
+    "err"
+  ],
+  "author": "Kristian Trenskow <trenskow@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trenskow/jsonerr/issues"
+  },
+  "homepage": "https://github.com/trenskow/jsonerr#readme"
+}
