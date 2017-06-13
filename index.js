@@ -27,7 +27,13 @@ module.exports = exports = (err, options) => {
 	}
 
 	if ((options || {}).enumerables === true) {
-		Object.keys(err).forEach((key) => {
+		options.enumerables = Object.keys(err).filter((key) => {
+			return err.hasOwnProperty(key);
+		});
+	}
+
+	if (Array.isArray((options || {}).enumerables)) {
+		options.enumerables.forEach((key) => {
 			obj[key] = err[key];
 		});
 	}

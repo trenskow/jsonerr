@@ -1,6 +1,6 @@
 {
   "name": "jsonerr",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Function to get JSON friendly object from error (Node/V8 only).",
   "main": "index.js",
   "scripts": {

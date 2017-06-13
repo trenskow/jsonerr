@@ -18,7 +18,7 @@ Converts an `Error` object into a JSON encodable object.
 | Name | Description | Type | Default Value |
 |:-----|:------------|:-----|:--------------|
 | `stack` | Include stack (parsed to an array) | `Boolean` | `true` |
-| `enumerables` | Include enumerables (custom keys) | `Boolean` | `false` |
+| `enumerables` | An array with custom keys to include – or `true` to include all enumerables. | `Boolean` or `Array` | `false` |
 
 ## Example output
 
